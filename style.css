@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bgc-primary{
+    background-color: #7857fe;
+}
+.color-primary{
+    color: #7857fe;
+}
+.price{
+    font-size: 4.2rem;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+li a:hover, .active{
+    border-bottom: 1.5px solid #fff;
+}
+.download-btn{
+    padding: 10px 18px;
+    color: #7857fe;
+    background-color: white;
+    box-shadow: 1px 1px 10px #4e4e4e;
+}
+.download-btn:hover{
+    color: white;
+    background-color: #7857fe;
+}
+.get-started{
+    padding: 10px 18px;
+}
+.get-started:hover{
+    background-color: #3300ff;
+}
+.collapse-section{
+    background-color: #f0f0f0;
+}
+.collapse-section a{
+    padding: 18px;
+    font-size: 1.2rem;
+}
+.fa-play-circle{
+    font-size: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #4e4e4e;
+    color: white;
+}
+.fa-play-circle:hover{
+    color: #7857fe;
+    background-color: white;
+}
+.header{
+    border-radius:0 0  230px;
+    padding: 73px 0;
+}
+.header-img{
+    max-width: 60%;
+}
+.icon{
+    font-size: 40px;
+    color: #7857fe;
+}
+.box-shadow{
+    box-shadow: 5px 5px 10px #aaaaaa;
+    border-radius: 15px;
+}
+.box-shadow:hover{
+    box-shadow: 10px 10px 30px #aaaaaa;
+    transform: scale(1.01);
+}
+p{
+    color:#575757;
+}
+.first-p{
+    color: white;
+}
+h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.fun-facts{
+    background-color: #f6f6f6;
+    padding: 73px 0;
+    margin: 100px 0;
+}
+.message{
+    height: 12rem;
+}
+.commons{
+    border-radius: 15px;
+}
+.input-shadow{
+    box-shadow: 5px 5px 20px lightgrey;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.downloads{
+    background-color: #ff4665;
+}
+.likes{
+    background-color: #ffbb00;
+}
+.award{
+    background-color: rgb(0, 38, 255);
+}
+.parent{
+    background-color: rgba(4, 0, 255, 0.5);
+    padding:82px 0;
+}
+.number{
+    background-color: #7857fe;
+    border-radius: 50%;
+    padding: 1rem 1.6rem;
+    position: relative;
+    z-index: 1;
+}
+.line{
+    width: 75%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #7857fe;
+    position: relative;
+    top: 140px;
+}
+.line2{
+    width: 55%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #7857fe;
+    position: relative;
+    top: 480px;
+    display: none;
+}
+.one{
+    padding: 1rem 1.8rem;
+}
+.download-apps{
+    background-image: url(images/download-app-bg.jpg);
+    background-repeat: no-repeat;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 35%;
+    max-height: 47%;
+    margin-bottom: 40px;
+}
+.fa-star{
+    color:#ffbb00; 
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media (max-width: 992px) { 
+    .header{
+        border-radius:0 0  150px;
+    }
+    .line{
+        width: 55%;
+    }
+    .line2{
+        display: block;
+    }
+}
+@media (max-width: 767px) { 
+    .line2,.line{
+        display: none;
+    }
+
+ }
