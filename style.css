@@ -7,7 +7,7 @@ body{
     font-weight: 400;
 }
 .heading-title{
-    max-height: 64.5vh;
+    max-height: 65vh;
 }
 .navbar-toggler{
     height: 55px;
@@ -80,8 +80,8 @@ li a:hover, .active{
     min-height: 100vh;
 }
 .header-img{
-    max-width: 57%;
-    animation: image .5s ease-in-out infinite alternate;
+    max-width: 300px;
+    animation: image .6s ease-in-out infinite alternate;
 }
 .icon{
     font-size: 40px;
@@ -208,16 +208,10 @@ input[type="number"]::-webkit-outer-spin-button {
     .fa-quote-right{
         left: 59%;
     }
-    .heading-title{
-        max-height: 56vh;
-    }
  }
 @media (max-width: 1200px) { 
     .fa-quote-right{
         left: 61%;
-    }
-    .heading-title{
-        max-height: 47vh;
     }
  }
 @media (max-width: 992px) { 
@@ -233,8 +227,8 @@ input[type="number"]::-webkit-outer-spin-button {
     .fa-quote-right{
         left: 59.5%;
     }
-    .header-img{
-        max-height: 90%;
+    .heading-title{
+        max-height: 60vh;
     }
 }
 @media (max-width: 767px) { 
@@ -246,9 +240,6 @@ input[type="number"]::-webkit-outer-spin-button {
     }
     .header{
         height: 1050px;
-    }
-    .header-img{
-        max-height: 100%;
     }
  }
  @media (max-width: 576px) { 
