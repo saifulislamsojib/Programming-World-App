@@ -7,7 +7,7 @@ body{
     font-weight: 400;
 }
 .heading-title{
-    max-height: 65vh;
+    max-height: 64.8vh;
 }
 .navbar-toggler{
     height: 55px;
@@ -77,7 +77,7 @@ li a:hover, .active{
 .header{
     border-radius:0 0  230px;
     padding: 20px 0;
-    min-height: 100vh;
+    min-height: 94.5vh;
 }
 .header-img{
     max-width: 300px;
