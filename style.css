@@ -6,6 +6,13 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.heading-title{
+    max-height: 64.5vh;
+}
+.navbar-toggler{
+    height: 55px;
+    border-radius: 50%;
+}
 .bgc-primary{
     background-color: #7857fe;
 }
@@ -44,22 +51,37 @@ li a:hover, .active{
     padding: 18px;
     font-size: 1.2rem;
 }
-.fa-play-circle{
-    font-size: 50px;
+.fa-play{
+    font-size: 23px;
+    color: #7857fe;
+    margin-top: 1px;
+}
+.info-icon{
+    font-size: 30px;
+    color: #7857fe;
+    margin-top: 12px;
+}
+.play{
+    width: 52px;
+    height:52px;
+    background-color: white;
     border-radius: 50%;
     box-shadow: 1px 1px 10px #4e4e4e;
+}
+.play:hover .fa-play{
     color: white;
 }
-.fa-play-circle:hover{
-    color: #7857fe;
-    background-color: white;
+.play:hover{
+    background-color: #7857fe;
 }
 .header{
     border-radius:0 0  230px;
-    padding: 73px 0;
+    padding: 20px 0;
+    min-height: 100vh;
 }
 .header-img{
-    max-width: 60%;
+    max-width: 57%;
+    animation: image .5s ease-in-out infinite alternate;
 }
 .icon{
     font-size: 40px;
@@ -143,20 +165,61 @@ h2{
     background-image: url(images/download-app-bg.jpg);
     background-repeat: no-repeat;
 }
+.fa-quote-right{
+    position: absolute;
+    top: 85px;
+    left: 57.5%;
+    background-color: #7857fe;
+    padding: .5rem;
+    border-radius: 50%;
+    color: white;
+}
+.single-user{
+    position: relative;
+}
+#second-img{
+    max-width: 42%;
+}
 .profile-pic{
     border-radius: 50%;
-    width: 35%;
-    max-height: 47%;
+    width: 100px;
+    height: 100px;
     margin-bottom: 40px;
+    border: 3px solid #7857fe;
 }
 .fa-star{
     color:#ffbb00; 
 }
+@keyframes image {
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: 28px;
+    }
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+@media (max-width: 1400px) { 
+    .fa-quote-right{
+        left: 59%;
+    }
+    .heading-title{
+        max-height: 56vh;
+    }
+ }
+@media (max-width: 1200px) { 
+    .fa-quote-right{
+        left: 61%;
+    }
+    .heading-title{
+        max-height: 47vh;
+    }
+ }
 @media (max-width: 992px) { 
     .header{
         border-radius:0 0  150px;
@@ -167,10 +230,29 @@ input[type="number"]::-webkit-outer-spin-button {
     .line2{
         display: block;
     }
+    .fa-quote-right{
+        left: 59.5%;
+    }
+    .header-img{
+        max-height: 90%;
+    }
 }
 @media (max-width: 767px) { 
     .line2,.line{
         display: none;
     }
-
+    .fa-quote-right{
+        left: 56%;
+    }
+    .header{
+        height: 1050px;
+    }
+    .header-img{
+        max-height: 100%;
+    }
  }
+ @media (max-width: 576px) { 
+    .fa-quote-right{
+        left: 57.5%;
+    }
+  }
