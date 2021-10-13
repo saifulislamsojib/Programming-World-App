@@ -12,7 +12,7 @@ header {
   z-index: 1000;
 }
 .container {
-  overflow-x: hidden !important;
+  overflow: hidden !important;
 }
 #navbar {
   height: 5rem;
