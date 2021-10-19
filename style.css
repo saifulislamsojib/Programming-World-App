@@ -112,8 +112,8 @@ li a:hover::after,
   min-height: 100vh;
 }
 .header-img {
+  width: 100%;
   max-width: 300px;
-  /* animation: image 0.6s ease-in-out infinite alternate; */
 }
 .icon {
   font-size: 40px;
