@@ -14,6 +14,9 @@ header {
 .container {
   overflow: hidden !important;
 }
+.frequently-container {
+  overflow: visible !important;
+}
 #navbar {
   height: 5rem;
   transition: all 0.5s;
